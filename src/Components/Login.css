@@ -1,0 +1,17 @@
+.background1{
+    background:linear-gradient(to right bottom ,rgba(0, 255, 213, 0.63),rgba(255, 166, 0, 0.719));
+    padding-top:20%;
+    background-size:cover;
+   
+    image-rendering: pixelated;
+    padding-bottom:23.5%;
+}
+.input-style1{
+    margin-left:42%;
+    padding:10px;
+    padding-left:3%;
+    padding-right:3%;
+    border-radius:30px;
+    overflow:hidden;
+    background:linear-gradient(to right bottom,orange,orange)
+}

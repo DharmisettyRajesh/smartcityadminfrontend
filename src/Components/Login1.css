@@ -1,0 +1,20 @@
+.main-background1{
+    padding-top:2%;
+    padding-bottom: 10%;
+    background:linear-gradient(to right bottom,orange, red);
+    
+}
+.background-style1{
+    background-color:rgba(202, 40, 148, 0.856);
+    margin-left:10%;
+    margin-right:10%;
+    border-radius:2%;
+    margin-top:2%;
+}
+.form-style1{
+    
+    padding:10%;
+}
+.tcolor1{
+    color:white;
+}

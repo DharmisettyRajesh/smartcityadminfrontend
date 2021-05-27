@@ -1,0 +1,16 @@
+.outer-style{
+     background:linear-gradient(to right bottom,rgba(0, 0, 0, 0.582),rgba(12, 161, 116, 0.596));
+     padding-top:4%;
+     padding-bottom:5%;
+}
+.inner-style{ 
+    border-radius:3%;
+    padding-top:3%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:rgba(167, 39, 81, 0.781);
+    padding-left:10%;
+    padding-right:10%;
+    padding-bottom:3%;
+
+}

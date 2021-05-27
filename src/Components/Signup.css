@@ -1,0 +1,14 @@
+.background{
+    background:linear-gradient(to right bottom,rgba(150, 11, 127, 0.555),rgba(9, 141, 173, 0.685));
+    padding-top:20%;
+    padding-bottom:23.5%;
+}
+.input-style{
+    margin-left:42%;
+    padding:10px;
+    padding-left:3%;
+    padding-right:3%;
+    border-radius:30px;
+    overflow:hidden;
+    background:linear-gradient(to right bottom,orange,orange)
+}

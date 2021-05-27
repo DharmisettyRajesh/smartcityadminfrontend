@@ -1,24 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {Route,BrowserRouter,Switch,Redirect} from 'react-router-dom';
+import Navigation from './Components/Navigation';
+import Home from './Components/Home';
+import Login from './Components/Login';
+import Signup from './Components/Signup';
+import {Stateprovider} from './Components/Stateprovide';
+import Reducer ,{initialState}  from './InitialState';
+import Upload from './Components/Upload';
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Stateprovider initialState={initialState} reducer={Reducer}>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact>
+              <Navigation />
+              <Home />    
+        </Route>
+        <Route path="/signup" exact >
+            <Navigation />
+            <Signup />
+        </Route>
+        <Route path="/login" exact>
+            <Navigation />
+            <Login />
+        </Route>
+        <Route path="/upload" exact>
+          <Navigation />
+          <Upload />
+        </Route>
+        <Redirect to="/" />
+      </Switch>
+    </BrowserRouter>
+    </Stateprovider>
   );
 }
 

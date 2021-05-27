@@ -1,0 +1,10 @@
+.navstyle{
+    padding-left:75%;
+}
+.nav-style1{
+    padding-left:30%;
+    color:orange;
+}
+.link:hover{
+    text-decoration: none;
+}
